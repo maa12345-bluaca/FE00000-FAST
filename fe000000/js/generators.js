@@ -36,7 +36,7 @@ let Generator = function (i) {
     },
     multiplier() {
       let factors = [
-        Decimal.pow(2, this.bought() / 1), Achievements.generatorMultiplier(),
+        Decimal.pow(2, this.bought() / 4), Achievements.generatorMultiplier(),
         Boost.multiplier(), Prestige.multiplier(),
         InfinityPoints.multiplier(), Challenge.multiplier(),
         InfinityStars.multiplier(), EternityStars.multiplier(),
